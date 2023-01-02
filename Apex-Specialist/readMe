@@ -21,4 +21,4 @@ Challenge 5:
 ->	Added callout service mock and tested service callout with one test which should cover 100% coverage
 
 Challenge 5:
-->	Tested scheduling logic with one test which covers 100% coverage
+->	Tested scheduling logic with one test which covers 100% code coverage
