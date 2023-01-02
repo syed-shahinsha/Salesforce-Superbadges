@@ -1,0 +1,24 @@
+Note : All these challenges can be solved in more than way. These logics are just to clarify your doubt when you're stuck in a challenge, do try it out yourself first and check this out if you're still stuck!
+
+Challenge 1:
+->	Require to add trigger logic and call updateWorkOrders from helper class
+    
+Challenge 2:
+->	Test the wareHouseCalloutService by executing this code from anonymous window
+		ID jobID = System.enqueueJob(new WarehouseCalloutService());
+    	System.debug('jobId-'+jobID);
+
+Challenge 3:
+->	Once done with WarehouseSyncSchedule class, try executing this bit of code from anonymous window to schedule the service and complete your challenge
+		String cronExp = '0 0 1 ? * *'; //set the cronExp based on your challege statement. For me, it was 1am daily
+		WarehouseSyncSchedule whSyncSchedule = new WarehouseSyncSchedule();
+		System.schedule('WarehouseSyncScheduleJob', cronExp, whSyncSchedule);
+		
+Challenge 4:
+->	Added positive, negative and bulk cases test outcomes
+
+Challenge 5:
+->	Added callout service mock and tested service callout with one test which should cover 100% coverage
+
+Challenge 5:
+->	Tested scheduling logic with one test which covers 100% coverage
