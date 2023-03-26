@@ -1,3 +1,1 @@
-//Salesforce-Superbadges
-
-//readMe file has been added under each superbadge for easier understanding
+Check out readMe under each superbadge for clarification
